@@ -7,11 +7,7 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-import "./application.css";
-
-console.log("Hello World from Webpacker");
-
-document.body.insertAdjacentHTML(
-  "afterbegin",
-  "Webpacker works with autorefresh!"
-);
+import "init";
+import "components/page/page";
+import "components/auth-form/auth-form";
+import "components/chat/chat";
